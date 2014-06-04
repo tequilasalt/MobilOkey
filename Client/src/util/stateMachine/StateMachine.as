@@ -1,9 +1,10 @@
 package util.stateMachine {
+	
 	import flash.utils.Dictionary;
 	
 	public class StateMachine{
 		
-		private var _defaultState:String = "Default";
+		private var _defaultState:String = "default";
 		private var _previousState:String;
 		
 		private var _currentState:AbstractState;

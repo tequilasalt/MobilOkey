@@ -1,6 +1,6 @@
 package mobilOkey.controller.net {
+	
 	import flash.net.SharedObject;
-	import flash.net.dns.AAAARecord;
 	
 	import mobilOkey.controller.user.UserController;
 	
@@ -23,8 +23,6 @@ package mobilOkey.controller.net {
 				var name:String = so.data.exp;
 				
 				UserController.instance.init(userId,exp,name);
-				
-				var test:AAAARecord = new AAAARecord();
 			}
 			
 		}

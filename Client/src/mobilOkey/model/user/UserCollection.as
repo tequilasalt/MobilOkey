@@ -39,5 +39,8 @@ package mobilOkey.model.user {
 			return null;
 		}
 		
+		public function reset():void{
+			
+		}
 	}
 }

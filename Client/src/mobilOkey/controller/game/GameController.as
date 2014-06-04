@@ -1,6 +1,6 @@
 package mobilOkey.controller.game {
 	
-	import mobilOkey.controller.net.CommRequestController;
+	import mobilOkey.controller.game.states.GameStates;
 	
 	import util.stateMachine.StateMachine;
 	
@@ -23,6 +23,7 @@ package mobilOkey.controller.game {
 			//CommRequestController.instance.registerMethod("onConnect", onConnect);
 			//CommRequestController.instance.registerMethod("onDisconnect", onDisconnect);
 			
+			setState(GameStates.INIT);
 		}
 		
 		private function onDisconnect():void{
