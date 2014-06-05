@@ -15,14 +15,7 @@ package mobilOkey.controller.game {
 			super();
 		}
 		
-		public function init():void{
-			
-			/*UserController.instance.init(userId);
-			CommRequestController.instance.connect(userId, _server);*/
-			
-			//CommRequestController.instance.registerMethod("onConnect", onConnect);
-			//CommRequestController.instance.registerMethod("onDisconnect", onDisconnect);
-			
+		public function init():void {
 			setState(GameStates.INIT);
 		}
 		

@@ -9,6 +9,10 @@ package mobilOkey.view {
 		
 		private static var _instance:UI; 
 		
+		private var _scaleRatio:Number;
+		private var _aspectRatio:Number;
+		private var _layouts:LayoutManager;
+		
 		public function UI(){
 			super();
 			
@@ -36,9 +40,7 @@ package mobilOkey.view {
 		}
 		
 		private function onResize(e:Event = null):void{
-			
-			
-			
+		
 		}
 		
 	}
