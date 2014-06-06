@@ -2,7 +2,7 @@ package mobilOkey.model.user {
 	
 	import flash.events.EventDispatcher;
 	
-	import mobilOkey.model.Settings;
+	import mobilOkey.model.settings.Settings;
 	import mobilOkey.model.level.Level;
 	
 	public class User extends EventDispatcher{

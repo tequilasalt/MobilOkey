@@ -1,6 +1,7 @@
 package mobilOkey.controller.game {
 	
 	import mobilOkey.controller.game.states.GameStates;
+	import mobilOkey.view.UI;
 	
 	import util.stateMachine.StateMachine;
 	
@@ -16,7 +17,10 @@ package mobilOkey.controller.game {
 		}
 		
 		public function init():void {
+			
+			UI.instance.init();			
 			setState(GameStates.INIT);
+			
 		}
 		
 		private function onDisconnect():void{

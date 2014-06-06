@@ -3,6 +3,8 @@ package mobilOkey.view.layout {
 	import flash.display.Sprite;
 	import flash.events.Event;
 	
+	import mobilOkey.view.layer.UILayer;
+	
 	public class UILayout extends Sprite {
 		
 		protected var _currentLayer:UILayer;
